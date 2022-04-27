@@ -1,20 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-html,
-body {
-  padding: 0;
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   position: relative;
-  min-height: 100vh;
+  height: 100%;
 }
-#home header {
+#home {
   background-image: url('../public/images/header-background.jpg');
   background-size: cover;
   background-position: center center;
