@@ -21,7 +21,7 @@ export default function Landing() {
           </Link>
         </div>
         {/* Expertise Features */}
-        <div className="w-full mt-6 flex flex-col space-y-2">
+        <div className="w-full mt-6 flex flex-col justify-center space-y-2 md:flex-row md:space-x-4">
           {/* Expertise 1 */}
           <div className="px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3 float-left">
@@ -33,7 +33,7 @@ export default function Landing() {
               />
             </div>
             <div>
-              <h4 className="text-2xl">24/7 Assistance</h4>
+              <h4 className="text-xl font-bold">24/7 Assistance</h4>
               <p>Available 24/7, 365 for anything you may need</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ export default function Landing() {
               />
             </div>
             <div>
-              <h4 className="text-2xl">Private & Secure</h4>
+              <h4 className="text-xl font-bold">Private & Secure</h4>
               <p>The most secure support on the market</p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Landing() {
               />
             </div>
             <div>
-              <h4 className="text-2xl">Reliable Service</h4>
+              <h4 className="text-xl font-bold">Reliable Service</h4>
               <p>Friendly assistance from professionals</p>
             </div>
           </div>
