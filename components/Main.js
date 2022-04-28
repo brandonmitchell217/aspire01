@@ -6,15 +6,14 @@
 
 import Link from 'next/link'
 import Landing from './mainComponents/Landing'
+import About from './mainComponents/About'
 
 export default function Main() {
   return (
     // Home Container
     <main>
       <Landing />
-
-      {/* About Section */}
-      <section id="about"></section>
+      <About />
     </main>
   )
 }

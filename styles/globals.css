@@ -16,6 +16,11 @@ body {
   background-size: cover;
   background-position: center center;
 }
+#about {
+  background-image: url('../public/images/about-background.jpg');
+  background-size: cover;
+  background-position: 25% center;
+}
 footer {
   position: absolute;
   bottom: 0;
