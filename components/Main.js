@@ -7,6 +7,7 @@
 import Link from 'next/link'
 import Landing from './mainComponents/Landing'
 import About from './mainComponents/About'
+import Services from './mainComponents/Services'
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
     <main>
       <Landing />
       <About />
+      <Services />
     </main>
   )
 }
