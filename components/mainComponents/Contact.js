@@ -1,4 +1,5 @@
 import Link from 'next/link'
+
 export default function Contact() {
   return (
     <section
@@ -18,18 +19,18 @@ export default function Contact() {
           <div className="container mx-auto flex flex-col items-center space-y-6 px-6">
             <input
               type="text"
-              className="bg-formGray min-w-full max-w-4xl text-white p-2 rounded-lg"
+              className="bg-formGray min-w-full max-w-4xl text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg"
               value="Name"
               id="name"
             />
             <input
               type="text"
-              className="bg-formGray min-w-full max-w-4xl text-white p-2 rounded-lg"
+              className="bg-formGray min-w-full max-w-4xl text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg"
               value="Email Address"
               id="email"
             />
             <textarea
-              className="bg-formGray min-w-full text-white p-2 rounded-lg"
+              className="bg-formGray min-w-full text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg overflow-clip"
               name="message"
               id="message"
               cols="30"
@@ -38,7 +39,7 @@ export default function Contact() {
               Enter a message...
             </textarea>
             <Link href="/">
-              <a className="w-48 mx-auto text-center py-1 rounded-lg text-white text-xl bg-brandBlue">
+              <a className="w-1/3 max-w-225 mx-auto text-center py-1 rounded-lg text-white text-lg bg-brandBlue">
                 Submit
               </a>
             </Link>

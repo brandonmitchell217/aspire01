@@ -11,22 +11,17 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="relative container h-screen pt-12 bg-black mx-auto"
+      className="relative container h-screen pt-12 bg-black flex flex-col justify-center mx-auto"
     >
-      <h2 className="text-white text-4xl">
+      <h2 className="truncate text-white text-4xl">
         State-of-the-art <br />
         support options:
       </h2>
       <div className="container flex flex-col justify-center items-center space-y-6">
         <div className="grid grid-cols-2 gap-5">
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv1}
-                layout="fill"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv1} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">Easy Setup</h4>
@@ -37,13 +32,8 @@ export default function Services() {
             </div>
           </div>
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv2}
-                layout="fill"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv2} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">Instant Support</h4>
@@ -54,13 +44,8 @@ export default function Services() {
             </div>
           </div>
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv3}
-                layout="fill"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv3} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">24/7 Coverage</h4>
@@ -71,13 +56,8 @@ export default function Services() {
             </div>
           </div>
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv4}
-                layout="intrinsic"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv4} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">Private & Secure</h4>
@@ -90,13 +70,8 @@ export default function Services() {
         </div>
         <div className="grid grid-cols-2 gap-5">
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv5}
-                layout="fill"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv5} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">Fast Navigation</h4>
@@ -107,13 +82,8 @@ export default function Services() {
             </div>
           </div>
           <div className="flex">
-            <div className="relative h-12 w-40 mr-2 mt-1.5">
-              <Image
-                src={Serv6}
-                layout="fill"
-                objectFit="cover"
-                alt="List Icon"
-              />
+            <div className="mr-2 flex justify-center">
+              <Image src={Serv6} alt="List Icon" height="100px" width="120px" />
             </div>
             <div className="text-white">
               <h4 className="font-bold text-xl">Easily Accessible</h4>

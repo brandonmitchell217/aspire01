@@ -38,13 +38,6 @@ body {
   background-position: center center;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: green;
-}
-
 a {
   color: inherit;
   text-decoration: none;

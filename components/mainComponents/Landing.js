@@ -9,7 +9,7 @@ export default function Landing() {
     <section id="home" className="relative h-screen pt-12">
       {/* Flex Container */}
       <div className="h-full flex flex-col justify-center items-center">
-        <h1 className="text-6xl text-center font-bold mb-6">
+        <h1 className="truncate text-6xl text-center font-bold mb-6">
           Award Winning <br /> Tech Support
         </h1>
         <div className="flex space-x-12 text-3xl">
@@ -21,7 +21,7 @@ export default function Landing() {
           </Link>
         </div>
         {/* Expertise Features */}
-        <div className="w-full mt-6 flex flex-col justify-center space-y-2 md:flex-row md:space-x-4">
+        <div className="mt-6 flex flex-col justify-center space-y-2 md:flex-row md:space-x-4">
           {/* Expertise 1 */}
           <div className="px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3 float-left">
