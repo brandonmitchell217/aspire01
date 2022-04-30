@@ -9,7 +9,10 @@ import Serv6 from '../../public/images/service-icon-6.svg'
 
 export default function Services() {
   return (
-    <section id="services" className="relative h-screen pt-12 bg-black">
+    <section
+      id="services"
+      className="relative container h-screen pt-12 bg-black mx-auto"
+    >
       <h2 className="text-white text-4xl">
         State-of-the-art <br />
         support options:

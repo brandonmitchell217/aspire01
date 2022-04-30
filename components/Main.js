@@ -11,6 +11,7 @@ import Landing from './mainComponents/Landing'
 import About from './mainComponents/About'
 import Services from './mainComponents/Services'
 import Features from './mainComponents/Features'
+import Testimonials from './mainComponents/Testimonials'
 
 export default function Main() {
   return (
@@ -20,6 +21,7 @@ export default function Main() {
       <About />
       <Services />
       <Features />
+      <Testimonials />
     </main>
   )
 }

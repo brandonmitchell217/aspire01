@@ -7,7 +7,10 @@ import Feature2 from '../../public/images/details-2.jpg'
 import Feature3 from '../../public/images/details-3.jpg'
 export default function Features() {
   return (
-    <section id="features" className="py-12 flex flex-col space-y-12">
+    <section
+      id="features"
+      className="container pt-8 pb-28 flex flex-col space-y-12 mx-auto"
+    >
       <div className="container flex flex-col items-center">
         <div className="relative w-full h-64">
           <Image
@@ -77,9 +80,10 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      <div className="container flex flex-col items-center space-y-3">
-        <div className="flex flex-wrap text-center">
-          <h2 className="text-3xl">
+      {/* Counters */}
+      <div className="container flex justify-center space-x-3">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl -mb-2">
             <CountUp end={24} redraw={true}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
@@ -88,10 +92,10 @@ export default function Features() {
               )}
             </CountUp>
           </h2>
-          <p className="leading-relaxed">Hours a day</p>
+          <p className="text-xs leading-tight">Hours a day</p>
         </div>
-        <div className="flex flex-wrap text-center">
-          <h2 className="text-3xl">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl -mb-2">
             <CountUp end={7} redraw={true}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
@@ -100,10 +104,10 @@ export default function Features() {
               )}
             </CountUp>
           </h2>
-          <p className="leading-relaxed">Subscribes</p>
+          <p className="text-xs leading-tight">Subscribers</p>
         </div>
-        <div className="flex flex-wrap text-center">
-          <h2 className="text-3xl">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl -mb-2">
             <CountUp end={365} redraw={true}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
@@ -112,10 +116,10 @@ export default function Features() {
               )}
             </CountUp>
           </h2>
-          <p className="leading-relaxed">Days a week</p>
+          <p className="text-xs leading-tight">Days a week</p>
         </div>
-        <div className="flex flex-wrap text-center">
-          <h2 className="text-3xl">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl -mb-2">
             <CountUp end={110} redraw={true}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
@@ -125,10 +129,10 @@ export default function Features() {
             </CountUp>
             <span>k</span>
           </h2>
-          <p className="leading-relaxed">Satisfied Clients</p>
+          <p className="text-xs leading-tight">Satisfied Clients</p>
         </div>
-        <div className="flex flex-wrap text-center">
-          <h2 className="text-3xl">
+        <div className="flex flex-col text-center">
+          <h2 className="text-3xl -mb-2">
             <CountUp end={12} redraw={true}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
@@ -137,7 +141,7 @@ export default function Features() {
               )}
             </CountUp>
           </h2>
-          <p className="leading-relaxed">Years in business</p>
+          <p className="text-xs leading-tight">Years in business</p>
         </div>
       </div>
     </section>
