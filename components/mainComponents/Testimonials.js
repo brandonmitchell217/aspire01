@@ -5,7 +5,7 @@ import Testi3 from '../../public/images/testimonial-3.jpg'
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="container mx-auto py-24">
+    <section id="testimonials" className="container mx-auto py-24 bg-gray-200">
       <h2 className="font-bold text-3xl text-center">From Our Customers...</h2>
       <div className="mx-auto px-12 py-6 flex flex-col justify-center items-center">
         <Image

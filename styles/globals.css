@@ -22,6 +22,20 @@ body {
   background-position: 25% center;
 }
 
+#contact {
+  background: url('../public/images/header-background.jpg'),
+    linear-gradient(
+      to top,
+      rgba(51, 51, 51, 0.95),
+      rgba(51, 51, 51, 0.75),
+      rgba(51, 51, 51, 0.55),
+      transparent
+    );
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center center;
+}
+
 footer {
   position: absolute;
   bottom: 0;

@@ -12,6 +12,7 @@ import About from './mainComponents/About'
 import Services from './mainComponents/Services'
 import Features from './mainComponents/Features'
 import Testimonials from './mainComponents/Testimonials'
+import Contact from './mainComponents/Contact'
 
 export default function Main() {
   return (
@@ -22,6 +23,7 @@ export default function Main() {
       <Services />
       <Features />
       <Testimonials />
+      <Contact />
     </main>
   )
 }
