@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Serv1 from '../../public/images/service-icon-1.svg'
 import Serv2 from '../../public/images/service-icon-2.svg'
 import Serv3 from '../../public/images/service-icon-3.svg'
@@ -121,6 +122,15 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <p className="flex justify-center mt-12 text-white text-lg">
+        Please
+        <Link href="/">
+          <a className="mx-1.5 underline underline-offset-2 text-brandBlue font-bold">
+            contact us
+          </a>
+        </Link>
+        for more info!
+      </p>
     </section>
   )
 }

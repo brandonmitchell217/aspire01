@@ -5,9 +5,12 @@
 // import HeaderBG from '../public/images/header-background.jpg'
 
 import Link from 'next/link'
+import CountUp from 'react-countup'
+import VisibilitySensor from 'react-visibility-sensor'
 import Landing from './mainComponents/Landing'
 import About from './mainComponents/About'
 import Services from './mainComponents/Services'
+import Features from './mainComponents/Features'
 
 export default function Main() {
   return (
@@ -16,6 +19,7 @@ export default function Main() {
       <Landing />
       <About />
       <Services />
+      <Features />
     </main>
   )
 }

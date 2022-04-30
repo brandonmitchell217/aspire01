@@ -3,21 +3,36 @@
     "id": "1",
     "src": "public/images/service-icon-1.svg",
     "title": "Easy Setup",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit repellat. Lorem ipsum dolor sit",
-    "title1": "Ditch the dreaded <div />. Semantic HTML elements we should use instead"
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit repellat. Lorem ipsum dolor sit"
   },
   {
     "id": "2",
-    "src": "public/images/service-icon-1.svg",
-    "title": "Easy Setup",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit repellat. Lorem ipsum dolor sit",
-    "title1": "Monday motivation - How I got into code"
+    "src": "public/images/service-icon-2.svg",
+    "title": "Instant Support",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit dolor. Lorem ipsum dolor sit."
   },
   {
     "id": "3",
-    "src": "public/images/service-icon-1.svg",
-    "title": "Easy Setup",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint odit repellat. Lorem ipsum dolor sit",
-    "title1": "How to setup path aliases for development with Next.js & Jest"
+    "src": "public/images/service-icon-3.svg",
+    "title": "24/7 Coverage",
+    "desc": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor. Lorem ipsum dolor sit amet consectetur."
+  },
+  {
+    "id": "4",
+    "src": "public/images/service-icon-4.svg",
+    "title": "Private & Secure",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing."
+  },
+  {
+    "id": "5",
+    "src": "public/images/service-icon-5.svg",
+    "title": "Fast Navigation",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi? Provident corporis magnam suscipit magni."
+  },
+  {
+    "id": "6",
+    "src": "public/images/service-icon-6.svg",
+    "title": "Easily Accessible",
+    "desc": "Lorem ipsum dolor sit amet. Provident corporis magnam suscipit magni."
   }
 ]
