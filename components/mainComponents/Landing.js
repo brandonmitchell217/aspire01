@@ -14,10 +14,14 @@ export default function Landing() {
         </h1>
         <div className="flex space-x-12 text-3xl">
           <Link href="/">
-            <a className="px-6 py-1 rounded-xl bg-brandBlue">Services</a>
+            <a className="px-6 py-1 rounded-xl border-2 border-brandBlue bg-brandBlue text-white">
+              Services
+            </a>
           </Link>
           <Link href="/" className="px-6 bg-brandBlue">
-            <a className="px-6 py-1 rounded-xl bg-brandBlue">Contact</a>
+            <a className="px-6 py-1 rounded-xl border-2 border-brandBlue">
+              Contact
+            </a>
           </Link>
         </div>
         {/* Expertise Features */}
