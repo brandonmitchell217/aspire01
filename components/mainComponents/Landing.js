@@ -25,9 +25,9 @@ export default function Landing() {
           </Link>
         </div>
         {/* Expertise Features */}
-        <div className="mt-6 flex flex-col justify-center space-y-2 md:flex-row md:space-x-4">
+        <div className="mt-6 flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-4">
           {/* Expertise 1 */}
-          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 h-28 mt-2 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp1}
@@ -38,13 +38,13 @@ export default function Landing() {
             </div>
             <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">24/7 Assistance</h4>
-              <p className="text-sm leading-tight">
+              <p className="text-xs leading-tight">
                 Available 24/7 for anything you may need
               </p>
             </div>
           </div>
           {/* Expertise 2 */}
-          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 h-28 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp2}
@@ -55,13 +55,13 @@ export default function Landing() {
             </div>
             <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">Private & Secure</h4>
-              <p className="text-sm leading-tight">
+              <p className="text-xs leading-tight">
                 The most secure support on the market
               </p>
             </div>
           </div>
           {/* Expertise 3 */}
-          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 h-28 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp3}
@@ -72,7 +72,7 @@ export default function Landing() {
             </div>
             <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">Reliable Service</h4>
-              <p className="text-sm leading-tight">
+              <p className="text-xs leading-tight">
                 Friendly assistance from professionals
               </p>
             </div>
