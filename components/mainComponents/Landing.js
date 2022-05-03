@@ -27,8 +27,8 @@ export default function Landing() {
         {/* Expertise Features */}
         <div className="mt-6 flex flex-col justify-center space-y-2 md:flex-row md:space-x-4">
           {/* Expertise 1 */}
-          <div className="px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3 float-left">
+          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+            <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp1}
                 layout="fill"
@@ -36,14 +36,16 @@ export default function Landing() {
                 alt="Computer Icon"
               />
             </div>
-            <div>
+            <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">24/7 Assistance</h4>
-              <p>Available 24/7, 365 for anything you may need</p>
+              <p className="text-sm leading-tight">
+                Available 24/7 for anything you may need
+              </p>
             </div>
           </div>
           {/* Expertise 2 */}
-          <div className="px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3 float-left">
+          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+            <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp2}
                 layout="fill"
@@ -51,14 +53,16 @@ export default function Landing() {
                 alt="Folder Icon"
               />
             </div>
-            <div>
+            <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">Private & Secure</h4>
-              <p>The most secure support on the market</p>
+              <p className="text-sm leading-tight">
+                The most secure support on the market
+              </p>
             </div>
           </div>
           {/* Expertise 3 */}
-          <div className="px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3 float-left">
+          <div className="w-full px-3 py-3 flex bg-neutral-50 bg-opacity-50 shadow-md">
+            <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp3}
                 layout="fill"
@@ -66,9 +70,11 @@ export default function Landing() {
                 alt="File Icon"
               />
             </div>
-            <div>
+            <div className="flex flex-col justify-center">
               <h4 className="text-xl font-bold">Reliable Service</h4>
-              <p>Friendly assistance from professionals</p>
+              <p className="text-sm leading-tight">
+                Friendly assistance from professionals
+              </p>
             </div>
           </div>
         </div>
