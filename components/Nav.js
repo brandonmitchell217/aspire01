@@ -14,6 +14,15 @@ export default function Nav() {
         </a>
       </div>
 
+      <button
+        id="menu-btn"
+        className="block hamburger md:hidden focus:outline-none"
+      >
+        <span className="hamburger-top"></span>
+        <span className="hamburger-middle"></span>
+        <span className="hamburger-bottom"></span>
+      </button>
+
       <div className="hidden md:flex space-x-8">
         <a href="#">Home</a>
         <a href="#">About Us</a>
