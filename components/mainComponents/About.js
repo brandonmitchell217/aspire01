@@ -4,9 +4,9 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative h-screen flex flex-col justify-evenly items-center py-24"
+      className="relative h-screen flex flex-col justify-evenly items-center md:flex-row md:justify-center md:px-24"
     >
-      <div className="relative w-1/2 h-64 overflow-visible">
+      <div className="relative w-3/4 h-1/3 overflow-visible">
         <Image
           src={AboutImg1}
           alt="Cityscape"
@@ -14,7 +14,7 @@ export default function About() {
           objectFit="contain"
           className="z-10"
         />
-        <div className="absolute -top-2 -left-3 translate-y-3 -translate-x-3 h-60 w-60 bg-black mt-6"></div>
+        <div className="absolute -bottom-2 left-3 -translate-x-3 h-60 w-3/4 bg-black mt-6"></div>
       </div>
       <div className="text-center px-6">
         <h2 className="font-bold text-left text-3xl">

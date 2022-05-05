@@ -20,7 +20,7 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2">
+        <div className="px-2 overflow-hidden">
           <h3 className="text-2xl my-1">Modern Capabilities</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -43,7 +43,7 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2">
+        <div className="px-2 overflow-hidden">
           <h3 className="text-2xl my-1">Support for Growth</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
@@ -66,7 +66,7 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2">
+        <div className="px-2 overflow-hidden">
           <h3 className="text-2xl my-1">Growing With You</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat

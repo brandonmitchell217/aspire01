@@ -9,15 +9,15 @@ import Serv6 from '../../public/images/service-icon-6.svg'
 
 export default function Services() {
   return (
-    <section id="services" className="relative h-screen pt-12 bg-black">
-      <div className="container mx-auto h-full flex flex-col justify-center space-y-6">
+    <section id="services" className="relative h-screen bg-black">
+      <div className="container mx-auto h-full flex flex-col justify-center space-y-12">
         <h2 className="truncate text-white text-4xl">
           State-of-the-art <br />
           support options:
         </h2>
         {/* Services cards */}
-        <div className="flex justify-center items-center flex-wrap gap-y-6">
-          <div className="w-5/12 flex flex-col">
+        <div className="flex justify-center items-center flex-wrap gap-y-6 md:gap-x-4">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv1} alt="List Icon" height="60px" width="80px" />
             </div>
@@ -31,7 +31,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="w-5/12 flex flex-col">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv2} alt="List Icon" height="60px" width="80px" />
             </div>
@@ -45,7 +45,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="w-5/12 flex flex-col">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv3} alt="List Icon" height="60px" width="80px" />
             </div>
@@ -59,7 +59,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="w-5/12 flex flex-col">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv4} alt="List Icon" height="60px" width="80px" />
             </div>
@@ -73,7 +73,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="w-5/12 flex flex-col">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv5} alt="List Icon" height="60px" width="80px" />
             </div>
@@ -87,7 +87,7 @@ export default function Services() {
               </p>
             </div>
           </div>
-          <div className="w-5/12 flex flex-col">
+          <div className="w-5/12 max-w-xs flex flex-col">
             <div className="flex justify-center">
               <Image src={Serv6} alt="List Icon" height="60px" width="80px" />
             </div>
