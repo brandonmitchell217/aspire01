@@ -13,6 +13,7 @@ module.exports = {
         black: '#333333',
         formGray: '#6B747B',
         brandBlue: '#119DDA',
+        brandWhite: 'rgba(238, 240, 241, 1)',
       },
     },
   },
