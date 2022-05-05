@@ -6,28 +6,28 @@ import Exp3 from '../../public/images/header-expertise-icon-3.svg'
 
 export default function Landing() {
   return (
-    <section id="home" className="relative h-screen pt-12">
+    <section id="home" className="relative h-screen">
       {/* Flex Container */}
-      <div className="h-full flex flex-col justify-center items-center">
-        <h1 className="truncate text-6xl text-center font-bold mb-6">
+      <div className="h-full flex flex-col justify-end items-center pb-12 md:justify-center md:pb-0 md:pt-24">
+        <h1 className="truncate text-6xl text-center font-bold mb-6 md:text-7xl lg:text-8xl">
           Award Winning <br /> Tech Support
         </h1>
-        <div className="flex space-x-12 text-3xl">
+        <div className="flex flex-col space-y-5 text-3xl text-center md:flex-row md:space-y-0 md:space-x-16 md:mb-12 md:mt-8 lg:text-4xl">
           <Link href="/">
-            <a className="px-6 py-1 rounded-xl border-2 border-brandBlue bg-brandBlue text-white">
+            <a className="px-12 py-1 rounded-xl border-2 border-brandBlue bg-brandBlue text-white">
               Services
             </a>
           </Link>
-          <Link href="/" className="px-6 bg-brandBlue">
-            <a className="px-6 py-1 rounded-xl border-2 border-brandBlue">
+          <Link href="/">
+            <a className="px-12 py-1 rounded-xl border-2 border-brandBlue">
               Contact
             </a>
           </Link>
         </div>
         {/* Expertise Features */}
-        <div className="mt-6 flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-4">
+        <div className="mt-6 flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-12">
           {/* Expertise 1 */}
-          <div className="w-full px-3 h-28 mt-2 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 mt-2 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp1}
@@ -44,7 +44,7 @@ export default function Landing() {
             </div>
           </div>
           {/* Expertise 2 */}
-          <div className="w-full px-3 h-28 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp2}
@@ -61,7 +61,7 @@ export default function Landing() {
             </div>
           </div>
           {/* Expertise 3 */}
-          <div className="w-full px-3 h-28 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
             <div className="relative h-14 w-14 mr-3">
               <Image
                 src={Exp3}

@@ -4,7 +4,6 @@ import Link from 'next/link'
 import Logo from '../public/images/logo.png'
 
 export default function Nav() {
-  // const menu = document.getElementById('mobileMenu')
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
@@ -26,6 +25,7 @@ export default function Nav() {
         </a>
       </div>
 
+      {/* Burger */}
       <div
         id="menu-btn"
         className="block absolute top-1.5 right-1 hamburger md:hidden cursor-pointer"
@@ -36,6 +36,7 @@ export default function Nav() {
         <span className="hamburger-bottom"></span>
       </div>
 
+      {/* Full Menu */}
       <div className="hidden md:flex space-x-8">
         <Link href="/">
           <a href="#">Home</a>
