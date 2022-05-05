@@ -4,11 +4,17 @@ import Link from 'next/link'
 import Logo from '../public/images/logo.png'
 
 export default function Nav() {
-  const menu = document.getElementById('mobileMenu')
+  // const menu = document.getElementById('mobileMenu')
   const [open, setOpen] = useState(false)
 
+  useEffect(() => {
+    !open
+      ? document.getElementById('mobileMenu').classList.toggle('hidden')
+      : document.getElementById('mobileMenu').classList.toggle('hidden')
+  }, [open])
+
   return (
-    <nav className="absolute top-0 left-0 z-10 container min-w-full flex justify-between px-5 pt-3 pb-2 border-b-2 border-black">
+    <nav className="absolute top-0 left-0 z-10 container min-w-full flex justify-between px-5 pt-3 pb-2.5 border-b-2 border-black">
       <div className="image h-10 w-36 relative">
         <a href="#">
           <Image
@@ -22,7 +28,8 @@ export default function Nav() {
 
       <div
         id="menu-btn"
-        className="block absolute top-1 right-1 hamburger md:hidden cursor-pointer"
+        className="block absolute top-1.5 right-1 hamburger md:hidden cursor-pointer"
+        onClick={() => setOpen(!open)}
       >
         <span className="hamburger-top"></span>
         <span className="hamburger-middle"></span>
@@ -47,7 +54,7 @@ export default function Nav() {
       {/* Mobile Menu */}
       <div
         id="mobileMenu"
-        className="hidden fixed w-full top-20 -translate-y-4 left-0 flex flex-col justify-center items-center space-y-10 py-6 border-b-2 border-t-2 border-black bg-brandWhite"
+        className="hidden fixed w-full top-20 -translate-y-4 left-0 flex flex-col justify-center items-center space-y-10 py-6 border-b-2 border-black bg-brandWhite"
       >
         <Link href="/">
           <a href="#">Home</a>
