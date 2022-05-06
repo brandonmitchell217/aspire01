@@ -14,7 +14,7 @@ export default function About() {
           objectFit="contain"
           className="z-10"
         />
-        <div className="absolute -bottom-2 left-3 -translate-x-3 h-60 w-3/4 bg-black mt-6"></div>
+        <div className="absolute -bottom-2 left-3 -translate-x-3 h-60 w-3/4 bg-black mt-6 lg:h-96 lg:-bottom-6 lg:translate-x-6"></div>
       </div>
       <div className="text-center px-6 max-w-2xl">
         <h2 className="font-bold text-left text-3xl lg:text-4xl overflow-hidden">

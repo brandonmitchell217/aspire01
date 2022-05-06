@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import CountUp from 'react-countup'
-import VisibilitySensor from 'react-visibility-sensor'
 import Feature1 from '../../public/images/details-1.jpg'
 import Feature2 from '../../public/images/details-2.jpg'
 import Feature3 from '../../public/images/details-3.jpg'
+import Counters from './Counter'
+
 export default function Features() {
   return (
     <section
       id="features"
-      className="container pt-8 pb-28 flex flex-col space-y-12 mx-auto"
+      className="container py-28 flex flex-col space-y-12 mx-auto lg:space-y-16"
     >
-      <div className="container flex flex-col items-center lg:flex-row">
-        <div className="relative w-full max-w-xl h-64">
+      <div className="flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-lg h-64">
           <Image
             src={Feature1}
             layout="fill"
@@ -34,8 +34,8 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      <div className="container flex flex-col items-center lg:flex-row">
-        <div className="relative w-full max-w-xl h-64">
+      <div className="flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-lg h-64">
           <Image
             src={Feature2}
             layout="fill"
@@ -57,8 +57,8 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      <div className="container flex flex-col items-center lg:flex-row">
-        <div className="relative w-full max-w-xl h-64">
+      <div className="flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-lg h-64">
           <Image
             src={Feature3}
             layout="fill"
@@ -80,70 +80,7 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      {/* Counters */}
-      <div className="container flex justify-center space-x-3">
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl -mb-2">
-            <CountUp end={24} redraw={true}>
-              {({ countUpRef, start }) => (
-                <VisibilitySensor onChange={start} delayedCall>
-                  <span ref={countUpRef} />
-                </VisibilitySensor>
-              )}
-            </CountUp>
-          </h2>
-          <p className="text-xs leading-tight">Hours a day</p>
-        </div>
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl -mb-2">
-            <CountUp end={7} redraw={true}>
-              {({ countUpRef, start }) => (
-                <VisibilitySensor onChange={start} delayedCall>
-                  <span ref={countUpRef} />
-                </VisibilitySensor>
-              )}
-            </CountUp>
-          </h2>
-          <p className="text-xs leading-tight">Subscribers</p>
-        </div>
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl -mb-2">
-            <CountUp end={365} redraw={true}>
-              {({ countUpRef, start }) => (
-                <VisibilitySensor onChange={start} delayedCall>
-                  <span ref={countUpRef} />
-                </VisibilitySensor>
-              )}
-            </CountUp>
-          </h2>
-          <p className="text-xs leading-tight">Days a week</p>
-        </div>
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl -mb-2">
-            <CountUp end={110} redraw={true}>
-              {({ countUpRef, start }) => (
-                <VisibilitySensor onChange={start} delayedCall>
-                  <span ref={countUpRef} />
-                </VisibilitySensor>
-              )}
-            </CountUp>
-            <span>k</span>
-          </h2>
-          <p className="text-xs leading-tight">Satisfied Clients</p>
-        </div>
-        <div className="flex flex-col text-center">
-          <h2 className="text-3xl -mb-2">
-            <CountUp end={12} redraw={true}>
-              {({ countUpRef, start }) => (
-                <VisibilitySensor onChange={start} delayedCall>
-                  <span ref={countUpRef} />
-                </VisibilitySensor>
-              )}
-            </CountUp>
-          </h2>
-          <p className="text-xs leading-tight">Years in business</p>
-        </div>
-      </div>
+      <Counters />
     </section>
   )
 }

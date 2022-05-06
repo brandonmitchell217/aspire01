@@ -10,7 +10,7 @@ import Serv6 from '../../public/images/service-icon-6.svg'
 export default function Services() {
   return (
     <section id="services" className="relative h-screen bg-black">
-      <div className="container mx-auto h-full flex flex-col justify-center space-y-12 px-6">
+      <div className="container mx-auto h-full flex flex-col justify-center space-y-12 px-6 lg:space-y-16">
         <h2 className="truncate text-white text-4xl lg:text-5xl">
           State-of-the-art <br />
           support options:

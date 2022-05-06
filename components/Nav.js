@@ -37,7 +37,7 @@ export default function Nav() {
       </div>
 
       {/* Full Menu */}
-      <div className="hidden md:flex space-x-8">
+      <div className="hidden md:flex space-x-8 mt-2">
         <Link href="/">
           <a href="#">Home</a>
         </Link>
@@ -55,7 +55,7 @@ export default function Nav() {
       {/* Mobile Menu */}
       <div
         id="mobileMenu"
-        className="hidden fixed w-full top-20 -translate-y-4 left-0 flex flex-col justify-center items-center space-y-10 py-6 border-b-2 border-black bg-brandWhite"
+        className="hidden fixed w-full top-20 -translate-y-4 left-0 flex flex-col justify-center items-center space-y-10 py-6 border-b-2 border-black bg-brandWhite lg:hidden"
       >
         <Link href="/">
           <a href="#">Home</a>

@@ -9,7 +9,7 @@ export default function Landing() {
     <section id="home" className="relative h-screen">
       {/* Flex Container */}
       <div className="h-full flex flex-col justify-end items-center pb-12 md:justify-center md:pb-0 md:pt-24">
-        <h1 className="truncate text-6xl text-center font-bold mb-6 md:text-7xl lg:text-8xl">
+        <h1 className="truncate text-6xl text-center font-bold mb-6 drop-shadow-md md:text-7xl lg:text-8xl">
           Award Winning <br /> Tech Support
         </h1>
         <div className="flex flex-col space-y-5 text-3xl text-center md:flex-row md:space-y-0 md:space-x-16 md:mb-12 md:mt-8 lg:text-4xl">
