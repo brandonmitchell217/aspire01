@@ -39,7 +39,7 @@ export default function Contact() {
               Enter a message...
             </textarea>
             <Link href="/">
-              <a className="w-1/3 max-w-225 mx-auto text-center py-1 rounded-lg text-white text-lg bg-brandBlue lg:text-2xl lg:py-2 lg:w-1/4">
+              <a className="w-1/3 mx-auto text-center py-1 rounded-lg text-white text-lg bg-brandBlue lg:text-2xl lg:py-2 lg:w-1/4">
                 Submit
               </a>
             </Link>
