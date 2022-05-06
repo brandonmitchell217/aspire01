@@ -11,8 +11,8 @@ export default function Features() {
       id="features"
       className="container pt-8 pb-28 flex flex-col space-y-12 mx-auto"
     >
-      <div className="container flex flex-col items-center">
-        <div className="relative w-full h-64">
+      <div className="container flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-xl h-64">
           <Image
             src={Feature1}
             layout="fill"
@@ -20,8 +20,8 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2 overflow-hidden">
-          <h3 className="text-2xl my-1">Modern Capabilities</h3>
+        <div className="px-2 overflow-hidden max-w-lg lg:px-12 md:py-8">
+          <h3 className="text-2xl my-1 lg:text-3xl">Modern Capabilities</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             veritatis accusamus neque eius praesentium, incidunt animi sed
@@ -34,8 +34,8 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      <div className="container flex flex-col items-center">
-        <div className="relative w-full h-64">
+      <div className="container flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-xl h-64">
           <Image
             src={Feature2}
             layout="fill"
@@ -43,8 +43,8 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2 overflow-hidden">
-          <h3 className="text-2xl my-1">Support for Growth</h3>
+        <div className="px-2 overflow-hidden max-w-lg lg:px-12 md:py-8">
+          <h3 className="text-2xl my-1 lg:text-3xl">Support for Growth</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             veritatis accusamus neque eius praesentium, incidunt animi sed
@@ -57,8 +57,8 @@ export default function Features() {
           </Link>
         </div>
       </div>
-      <div className="container flex flex-col items-center">
-        <div className="relative w-full h-64">
+      <div className="container flex flex-col items-center lg:flex-row">
+        <div className="relative w-full max-w-xl h-64">
           <Image
             src={Feature3}
             layout="fill"
@@ -66,8 +66,8 @@ export default function Features() {
             alt="building"
           />
         </div>
-        <div className="px-2 overflow-hidden">
-          <h3 className="text-2xl my-1">Growing With You</h3>
+        <div className="px-2 overflow-hidden max-w-lg lg:px-12 md:py-8">
+          <h3 className="text-2xl my-1 lg:text-3xl">Growing With You</h3>
           <p className="text-sm leading-tight mb-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
             veritatis accusamus neque eius praesentium, incidunt animi sed

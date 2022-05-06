@@ -28,51 +28,58 @@ export default function Landing() {
         <div className="mt-6 flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-12">
           {/* Expertise 1 */}
           <div className="w-full px-3 py-5 mt-2 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3">
+            <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp1}
+                height={200}
+                width={200}
                 layout="fill"
-                objectFit="cover"
                 alt="Computer Icon"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-xl font-bold">24/7 Assistance</h4>
-              <p className="text-xs leading-tight">
-                Available 24/7 for anything you may need
+              <h4 className="text-xl font-bold lg:text-2xl">24/7 Assistance</h4>
+              <p className="text-xs leading-tight lg:text-sm">
+                Available 24/7 for anything you need
               </p>
             </div>
           </div>
           {/* Expertise 2 */}
           <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3">
+            <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp2}
+                height={200}
+                width={200}
                 layout="fill"
-                objectFit="cover"
                 alt="Folder Icon"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-xl font-bold">Private & Secure</h4>
-              <p className="text-xs leading-tight">
+              <h4 className="text-xl font-bold lg:text-2xl">
+                Private & Secure
+              </h4>
+              <p className="text-xs leading-tight lg:text-sm">
                 The most secure support on the market
               </p>
             </div>
           </div>
           {/* Expertise 3 */}
           <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
-            <div className="relative h-14 w-14 mr-3">
+            <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp3}
+                height={200}
+                width={200}
                 layout="fill"
-                objectFit="cover"
                 alt="File Icon"
               />
             </div>
             <div className="flex flex-col justify-center">
-              <h4 className="text-xl font-bold">Reliable Service</h4>
-              <p className="text-xs leading-tight">
+              <h4 className="text-xl font-bold lg:text-2xl">
+                Reliable Service
+              </h4>
+              <p className="text-xs leading-tight lg:text-sm">
                 Friendly assistance from professionals
               </p>
             </div>
