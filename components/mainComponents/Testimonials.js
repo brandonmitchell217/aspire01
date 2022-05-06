@@ -6,10 +6,10 @@ import Testi3 from '../../public/images/testimonial-3.jpg'
 export default function Testimonials() {
   return (
     <section id="testimonials" className="py-24 bg-gray-200 lg:py-32">
-      <h2 className="font-bold text-3xl text-center lg:text-5xl lg:mb-12">
+      <h2 className="max-w-6xl mx-auto pl-6 font-bold text-3xl text-left lg:text-5xl lg:mb-12 overflow-hidden">
         From Our Customers...
       </h2>
-      <div className="container flex flex-col mx-auto lg:flex-row">
+      <div className="container max-w-6xl flex flex-col mx-auto lg:flex-row">
         <div className="mx-auto px-12 py-6 flex flex-col justify-center items-center lg:text-center">
           <div className="relative h-24 w-24 overflow-hidden">
             <Image

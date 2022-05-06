@@ -37,18 +37,26 @@ export default function Nav() {
       </div>
 
       {/* Full Menu */}
-      <div className="hidden md:flex space-x-8 mt-2">
+      <div className="hidden md:flex space-x-16 mt-1.5">
         <Link href="/">
-          <a href="#">Home</a>
+          <a href="#" className="text-xl transition hover:text-brandBlue">
+            Home
+          </a>
         </Link>
         <Link href="/">
-          <a href="#">About Us</a>
+          <a href="#" className="text-xl transition hover:text-brandBlue">
+            About Us
+          </a>
         </Link>
         <Link href="/">
-          <a href="#">Services</a>
+          <a href="#" className="text-xl transition hover:text-brandBlue">
+            Services
+          </a>
         </Link>
         <Link href="/">
-          <a href="#">Contact Us</a>
+          <a href="#" className="text-xl transition hover:text-brandBlue">
+            Contact Us
+          </a>
         </Link>
       </div>
 
