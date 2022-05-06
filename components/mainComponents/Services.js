@@ -16,7 +16,7 @@ export default function Services() {
           support options:
         </h2>
 
-        <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:gap-8">
+        <div className="max-w-6xl mx-auto grid grid-cols-2 gap-4 md:grid-cols-3 lg:gap-8">
           <div className="flex flex-col max-w-xs m-auto">
             <div className="relative mx-auto w-16 h-16 lg:w-20 lg:h-20">
               <Image

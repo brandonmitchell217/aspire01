@@ -16,7 +16,7 @@ export default function Contact() {
           rerum veniam.
         </p>
       </div>
-      <div className="w-full">
+      <div className="w-full max-w-6xl">
         <form className="">
           <div className="container mx-auto flex flex-col items-center space-y-6 px-6">
             <input
