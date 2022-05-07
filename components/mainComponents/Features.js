@@ -32,7 +32,7 @@ export default function Features() {
             </Link>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center justify-center lg:flex-row-reverse">
+        <div className="w-full flex flex-col items-center justify-center lg:flex-row">
           <div className="relative w-full max-w-lg h-64">
             <Image
               src={Feature2}

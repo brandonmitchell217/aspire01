@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import CountUp from 'react-countup'
 import VisibilitySensor from 'react-visibility-sensor'
-import Nav from '../components/Nav'
-import Main from '../components/Main'
-import Footer from '../components/Footer'
+import Nav from '../pages/'
+import Main from '../pages/Main'
+import Footer from '../pages/Footer'
 
 export default function Home() {
   return (

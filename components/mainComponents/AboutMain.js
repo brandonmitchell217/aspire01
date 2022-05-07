@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import AboutImg1 from '../../public/images/about.jpg'
-export default function About() {
+// About section on Main
+export default function AboutMain() {
   return (
     <section
       id="about"
