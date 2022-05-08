@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Logo from '../../public/images/logo.png'
+import Logo from '../public/images/logo.png'
 
 export default function Nav() {
   const [open, setOpen] = useState(false)

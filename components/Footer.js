@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import FootLogo from '../../public/images/favicon.png'
+import FootLogo from '../public/images/favicon.png'
 
 export default function Footer() {
   return (
