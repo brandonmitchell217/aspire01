@@ -16,18 +16,18 @@ export default function Contact() {
           rerum veniam.
         </p>
       </div>
-      <div className="w-full max-w-6xl">
+      <div className="w-full max-w-4xl">
         <form className="">
           <div className="container mx-auto flex flex-col items-center space-y-6 px-6">
             <input
               type="text"
-              className="bg-formGray min-w-full max-w-4xl text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg lg:text-base"
+              className="bg-formGray min-w-full text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg lg:text-base"
               value="Name"
               id="name"
             />
             <input
               type="text"
-              className="bg-formGray min-w-full max-w-4xl text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg lg:text-base"
+              className="bg-formGray min-w-full text-sm text-white focus:outline-none focus:shadow-lg p-2 rounded-lg lg:text-base"
               value="Email Address"
               id="email"
             />

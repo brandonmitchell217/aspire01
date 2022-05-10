@@ -4,6 +4,7 @@ import Services from '../components/mainComponents/Services'
 import Features from '../components/mainComponents/Features'
 import Testimonials from '../components/mainComponents/Testimonials'
 import Contact from '../components/mainComponents/Contact'
+import Section from './Section'
 
 export default function Main() {
   return (
