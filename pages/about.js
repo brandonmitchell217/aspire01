@@ -1,14 +1,15 @@
 import OtherPages from '../components/OtherPages'
 // About page
 export default function About() {
+  const title = 'About'
+
   return (
     <>
-      {/* <Nav /> */}
       <section
         id="aboutPage"
         className="h-screen flex justify-center items-center"
       >
-        <OtherPages />
+        <OtherPages title={title} />
       </section>
     </>
   )

@@ -22,6 +22,7 @@ export default function Nav() {
             layout="fill"
             objectFit="contain"
             className="cursor-pointer"
+            onClick={() => setOpen(!open)}
           />
         </Link>
       </div>
@@ -29,7 +30,7 @@ export default function Nav() {
       {/* Burger */}
       <div
         id="menu-btn"
-        className="block absolute top-1.5 right-1 hamburger md:hidden cursor-pointer"
+        className="block absolute top-2 right-2 hamburger md:hidden cursor-pointer"
         onClick={() => setOpen(!open)}
       >
         <span className="hamburger-top"></span>
@@ -59,16 +60,16 @@ export default function Nav() {
         className="hidden fixed w-full top-20 -translate-y-4 left-0 flex flex-col justify-center items-center space-y-10 py-6 border-b-2 border-black bg-brandWhite lg:hidden"
       >
         <Link href="/">
-          <a>Home</a>
+          <a onClick={() => setOpen(!open)}>Home</a>
         </Link>
         <Link href="/about">
-          <a>About Us</a>
+          <a onClick={() => setOpen(!open)}>About Us</a>
         </Link>
         <Link href="/services">
-          <a>Services</a>
+          <a onClick={() => setOpen(!open)}>Services</a>
         </Link>
         <Link href="/contact">
-          <a>Contact Us</a>
+          <a onClick={() => setOpen(!open)}>Contact Us</a>
         </Link>
       </div>
     </nav>
