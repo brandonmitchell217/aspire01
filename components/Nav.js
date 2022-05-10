@@ -22,7 +22,7 @@ export default function Nav() {
             layout="fill"
             objectFit="contain"
             className="cursor-pointer"
-            onClick={() => setOpen(!open)}
+            onClick={() => (open ? setOpen(!open) : setOpen(open))}
           />
         </Link>
       </div>
