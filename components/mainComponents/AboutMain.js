@@ -5,23 +5,23 @@ export default function AboutMain() {
   return (
     <section
       id="about"
-      className="relative h-screen flex flex-col justify-evenly items-center lg:flex-row lg:justify-center md:px-24"
+      className="relative h-screen flex flex-col justify-center items-center space-y-10 lg:flex-row lg:justify-center md:px-24"
     >
-      <div className="relative max-w-screen-md w-3/4 h-1/3 md:h-1/2 overflow-visible">
+      <div className="relative w-60 h-60 overflow-visible lg:w-72 lg:h-72">
         <Image
           src={AboutImg1}
           alt="Cityscape"
           layout="fill"
-          objectFit="contain"
+          objectFit="cover"
           className="z-10"
         />
-        <div className="absolute -bottom-2 left-3 -translate-x-3 h-60 w-3/4 bg-black mt-6 lg:h-96 lg:-bottom-6 lg:translate-x-6"></div>
+        <div className="absolute -bottom-4 -left-3 w-60 h-60 bg-black lg:w-72 lg:h-72"></div>
       </div>
-      <div className="text-center px-6 max-w-2xl">
+      <div className="text-center px-6 max-w-xl">
         <h2 className="font-bold text-left text-3xl lg:text-4xl overflow-hidden">
           Lorem ipsum dolor sit amet
         </h2>
-        <p className="text-left pl-6 pt-4 lg:text-lg">
+        <p className="text-left pl-6 pt-2 lg:text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
           excepturi eos obcaecati officia, error aliquid sapiente consequatur?
           Porro nihil fuga beatae, dolores sequi incidunt, eos dolorem

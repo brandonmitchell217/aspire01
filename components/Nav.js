@@ -14,16 +14,12 @@ export default function Nav() {
 
   return (
     <nav className="absolute top-0 left-0 z-10 container min-w-full flex justify-between px-5 pt-3 pb-2.5 border-b-2 border-black">
-      <div className="image h-10 w-36 relative">
+      <div
+        className="image h-10 w-36 relative cursor-pointer"
+        onClick={() => (open ? setOpen(!open) : setOpen(open))}
+      >
         <Link href="/" passHref>
-          <Image
-            src={Logo}
-            alt="Aspire"
-            layout="fill"
-            objectFit="contain"
-            className="cursor-pointer"
-            onClick={() => (open ? setOpen(!open) : setOpen(open))}
-          />
+          <Image src={Logo} alt="Aspire" layout="fill" objectFit="contain" />
         </Link>
       </div>
 
