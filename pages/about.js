@@ -1,4 +1,5 @@
 import OtherPages from '../components/OtherPages'
+
 // About page
 export default function About() {
   const title = 'About'
