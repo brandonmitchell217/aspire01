@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import Logo from '../public/images/logo.png'
+import { useState, useEffect } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import Logo from '../public/images/logo.png';
 
 export default function Nav() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
     !open
       ? document.getElementById('mobileMenu').classList.toggle('hidden')
-      : document.getElementById('mobileMenu').classList.toggle('hidden')
-  }, [open])
+      : document.getElementById('mobileMenu').classList.toggle('hidden');
+  }, [open]);
 
   return (
     <nav className="absolute top-0 left-0 z-10 container min-w-full flex justify-between px-5 pt-3 pb-2.5 border-b-2 border-black">
@@ -69,5 +69,5 @@ export default function Nav() {
         </Link>
       </div>
     </nav>
-  )
+  );
 }

@@ -1,8 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import Exp1 from '../../public/images/header-expertise-icon-1.svg'
-import Exp2 from '../../public/images/header-expertise-icon-2.svg'
-import Exp3 from '../../public/images/header-expertise-icon-3.svg'
+import Image from 'next/image';
+import Link from 'next/link';
+import Exp1 from '../../public/images/header-expertise-icon-1.svg';
+import Exp2 from '../../public/images/header-expertise-icon-2.svg';
+import Exp3 from '../../public/images/header-expertise-icon-3.svg';
 
 export default function Landing() {
   return (
@@ -25,9 +25,9 @@ export default function Landing() {
           </Link>
         </div>
         {/* Expertise Features */}
-        <div className="mt-6 flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-12">
+        <div className="mt-6 mx-auto flex flex-col justify-center items-center space-y-2 md:flex-row md:space-x-12">
           {/* Expertise 1 */}
-          <div className="w-full px-3 py-5 mt-2 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 mt-2 flex justify-center items-center">
             <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp1}
@@ -45,7 +45,7 @@ export default function Landing() {
             </div>
           </div>
           {/* Expertise 2 */}
-          <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 flex justify-center items-center">
             <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp2}
@@ -65,7 +65,7 @@ export default function Landing() {
             </div>
           </div>
           {/* Expertise 3 */}
-          <div className="w-full px-3 py-5 flex justify-center items-center bg-neutral-50 bg-opacity-50 shadow-md">
+          <div className="w-full px-3 py-5 flex justify-center items-center">
             <div className="relative h-14 w-14 mr-3 drop-shadow-lg lg:h-16 lg:w-16">
               <Image
                 src={Exp3}
@@ -87,5 +87,5 @@ export default function Landing() {
         </div>
       </div>
     </section>
-  )
+  );
 }
