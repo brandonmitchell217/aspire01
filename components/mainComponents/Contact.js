@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Contact() {
   return (
@@ -16,7 +16,7 @@ export default function Contact() {
           rerum veniam.
         </p>
       </div>
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-2xl">
         <form className="">
           <div className="container mx-auto flex flex-col items-center space-y-6 px-6">
             <input
@@ -47,5 +47,5 @@ export default function Contact() {
         </form>
       </div>
     </section>
-  )
+  );
 }
